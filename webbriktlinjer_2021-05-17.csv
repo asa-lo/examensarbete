@@ -27,18 +27,18 @@ Det gäller till exempel:
 Se därför till att allt sådant innehåll beskrivs med hjälp av text, förutom i de undantagsfall som beskrivs i <abbr title=""Web Content Accessibility Guidelines"">WCAG</abbr>-kriteriet.  Undantagen gäller framförallt sådana situationer där en beskrivande text skulle motverka innehållets syfte (till exempel när syftet med ett ljud är att testa användarens hörsel).",1,Tillgänglig,"alt-text, bildbeskrivning, Bilder, bildtext, CAPTCHA, DOS-lagen, skärmläsare, talsyntes, textalternativ, textbeskrivning",2021-03-29,partial
 126,https://webbriktlinjer.se/riktlinjer/126-tillrackliga-kontraster/,Använd tillräcklig kontrast mellan text och bakgrund,"Bra kontrast mellan text och bakgrund är viktigt för läsbarheten, särskilt för personer med nedsatt synförmåga.",1,Tillgänglig,"DOS-lagen, kontrast",2018-11-28,partial
 129,https://webbriktlinjer.se/riktlinjer/129-gar-att-hantera-med-tangentbord/,Utveckla systemet så att det går att hantera med enbart tangentbordet,"Se till att det går att hantera all funktionalitet med enbart tangentbord, eftersom många hjälpmedel i praktiken fungerar som tangentbord.
-",1,Tillgänglig,"DOS-lagen, tangentbord",2018-11-30,partial
+",1,Tillgänglig,"DOS-lagen, tangentbord",2018-11-30,ok
 140,https://webbriktlinjer.se/riktlinjer/140-markera-element-i-fokus/,Markera tydligt vilket fält eller element som är i fokus,"Den som navigerar med t.ex. tab-tangenten behöver få veta var fokus ligger. Standardmarkeringen är ofta en tunn linje som är svår att se. 
-Gör markeringen tydlig, till exempel med en CSS-regel.",1,Tillgänglig,"DOS-lagen, Lågt hängande frukt",2020-12-23,partial
+Gör markeringen tydlig, till exempel med en CSS-regel.",1,Tillgänglig,"DOS-lagen, Lågt hängande frukt",2020-12-23,fail
 150,https://webbriktlinjer.se/riktlinjer/150-ge-mojlighet-att-angra-korrigera-eller-bekrafta-viktiga-transaktioner/,"Ge möjlighet att ångra, korrigera eller bekräfta vid viktiga transaktioner","Den som råkar göra något fel kan slippa mycket besvär om felet kan upptäckas och åtgärdas direkt.
 ",1,Tillgänglig,"bekräftelse, DOS-lagen, Felhantering",2018-03-09,na
 125,https://webbriktlinjer.se/riktlinjer/125-kunna-pausa-ljud/,"Ge användaren möjlighet att pausa, stänga av eller sänka ljud","Det ska alltid vara möjligt att pausa, stoppa eller sänka sådant ljud som spelas upp automatiskt.
 ",1,Tillgänglig,"distraktion, DOS-lagen, kontrast, Ljud",2018-11-28,na
-122,https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/,Presentera innehållet i en meningsfull ordning för alla,Utforma innehållet på ett sätt som bevarar den avsedda betydelsen för alla användare.,1,Tillgänglig,"CSS, DOS-lagen, läsordning, responsiv",2020-10-08,partial
+122,https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/,Presentera innehållet i en meningsfull ordning för alla,Utforma innehållet på ett sätt som bevarar den avsedda betydelsen för alla användare.,1,Tillgänglig,"CSS, DOS-lagen, läsordning, responsiv",2020-10-08,ok
 124,https://webbriktlinjer.se/riktlinjer/124-inte-bara-farg/,Använd inte enbart färg för att förmedla information,"Använd gärna färger, men låt inte färgskillnader vara det enda sättet att urskilja information utan komplettera med exempelvis text, mönster eller någon annan visuell indikation. 
 ",1,Tillgänglig,DOS-lagen,2018-11-28,partial
 123,https://webbriktlinjer.se/riktlinjer/123-ej-beroende-av-sensoriska-kannetecken/,Gör inte instruktioner beroende av sensoriska kännetecken,"Även den som inte kan uppfatta form, storlek eller har möjlighet att relatera till höger eller vänster behöver kunna förstå hänvisningar till navigation och instruktioner.
-",1,Tillgänglig,DOS-lagen,2018-11-28,partial
+",1,Tillgänglig,DOS-lagen,2018-11-28,na
 119,https://webbriktlinjer.se/riktlinjer/119-texta-direktsandningar/,Texta direktsändningar,"Digital video ska ha undertexter och för annat ljud bör en textversion erbjudas. Denna riktlinje gäller direktsändningar.
 ",1,Tillgänglig,undertexter,2020-09-25,na
 127,https://webbriktlinjer.se/riktlinjer/127-se-till-att-text-gar-att-forstora-utan-problem/,Se till att text går att förstora utan problem,Det ska vara möjligt att förstora texten till åtminstone dubbel höjd och bredd utan att problem uppstår (till exempel att text hamnar bakom en bild eller krockar med annan text).,1,Tillgänglig,DOS-lagen,2018-11-28,ok
@@ -87,7 +87,7 @@ Användaren ska ha möjlighet att öka avstånd åtminstone upp till följande relativ
 Förstoring av mellanrum kan ske på olika sätt. Till exempel med hjälp av <a href=""https://www.html5accessibility.com/tests/tsbookmarklet.html"">en bookmarklet som ökar avstånden</a>, med ett förstoringshjälpmedel eller genom att <a href=""http://people.ds.cam.ac.uk/ssb22/css/"">ställa in webbläsaren att tillämpa användarens egen css-kod</a>.
 
 Riktlinjen gäller inte för <a href=""https://webbriktlinjer.se/riktlinjer/117-texta-inspelad-rorlig-media/#erbjud-stangda-undertexter-for-digital-video"">öppna undertexter i video</a> och inte heller för text som förekommer i bilder (vilket i och för sig ofta bör undvikas, se <a href=""https://webbriktlinjer.se/riktlinjer/128-anvand-text-inte-bilder-for-att-visa-text/"">Använd text, inte bilder, för att visa text (R128)</a>). För närvarande är även PDF undantaget.
-",1,Tillgänglig,"DOS-lagen, Nytt i WCAG 2.1, radavstånd, Typografi",2018-11-28,partial
+",1,Tillgänglig,"DOS-lagen, Nytt i WCAG 2.1, radavstånd, Typografi",2018-11-28,ok
 158,https://webbriktlinjer.se/riktlinjer/158-popup-funktioner-ska-kunna-hanteras-och-stangas-av-alla/,Popup-funktioner ska kunna hanteras och stängas av alla,"Innehåll, till exempel popup-rutor, som dyker upp vid tangentbordsfokus eller när användaren för muspekaren (hovrar) över ett visst objekt ska kunna uppfattas och hanteras av alla - även av användare som har förstorat sidan eller tar längre tid på sig att komma till innehållet. Det är särskilt viktigt att innehållet enkelt kan tas bort eller stängas.
 
 Det kan till exempel gälla undermenyer, inforutor (tooltips) och icke-modala popup-fönster.
